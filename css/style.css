@@ -87,7 +87,7 @@ body {
   }
 
   .middle-c {
-    height: 100vmin;
+    height: 100vh;
     background-image: url('../image/jeep.jpg') ;
     background-repeat: no-repeat;
     background-attachment: local;
