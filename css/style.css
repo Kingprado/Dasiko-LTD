@@ -1,8 +1,9 @@
 body {
-    color: #40514E;
+    color: #000000;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    
 }
   
   h1 {
@@ -52,6 +53,7 @@ body {
   a:hover {
     color: #EAF6F6;
   }
+
   .floating-ggg{
     width: 60px;
     height: 60px;
@@ -81,20 +83,21 @@ body {
   
   .middle-container {
     position: relative;
-    background-color: #f4f8f7;
     background-image: url('../image/uuuuuuu.jpg')
 
   }
 
   .middle-c {
-    height: 100vh;
+    max-width: 100%;
+    height: 700px;
     background-image: url('../image/jeep.jpg') ;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
+    
   }
   .jeep-banner {
-    padding: 100px 50px;
+    padding: 30px 50px;
 }
 #accordion{
   position: relative;
@@ -106,8 +109,8 @@ body {
   font-weight: 600;
 }
 .movedd{  
+ align-items: center;
   justify-content: center;
-  align-items: center;
 }
 .tyre-img{
     align-items:center;
@@ -118,17 +121,20 @@ body {
    display: block;
 
   }
+  .panel-body{
+    background-image: url('../image/uuuuuuu.jpg')
+  }
   .bg-style1{
-    background-color: #b27d55;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:20px;
   }
 .panel-group {
     text-align: center;
-    color: #EAF6F6;
+    color: #000000;
     padding: 10px 0;
     border-radius: 0;
     box-shadow: none;
+    background-image: url('../image/uuuuuuu.jpg')
 }
 .more-less {
   float: right;
@@ -145,7 +151,6 @@ body {
 .seaways{
   padding: 3% 2%;
 }
-
 .large {
     text-align:left;
     color: #ffffff;
