@@ -87,7 +87,6 @@ body {
   }
 
   .middle-c {
-    max-width: 100%;
     height: 100vmin;
     background-image: url('../image/jeep.jpg') ;
     background-repeat: no-repeat;
